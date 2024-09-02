@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin:0;
+}
+.Post-LISA {
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    width: 500px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.Post-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 1px solid #dbdbdb;
+}
+.fa-brands{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.Name {
+    font-weight: bold;
+    color: #262626;
+    flex-grow: 1;
+}
+.img{
+    width: 100%;
+    display: block;
+}
+.fa-regular{
+    font-family: "Font Awesome 6 Free";
+    font-style: normal;
+}
+.username {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #262626;
+}
+
+.username2 {
+    color: #8e8e8e;
+    
+}
+
+.fa-ellipsis-vertical {
+    margin-left: auto;
+    color: #8e8e8e;
+    cursor: pointer;
+}
+
+.Post-image img {
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.Post-JENNIE {
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px 15px;
+    font-size: 24px;
+}
+
+.Post-JENNIE i {
+    font-size: 30px;
+}
+
+.Post-JISOO {
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #262626;
+}
+
+.Post-ROSE {
+    padding: 0 15px 10px 15px;
+    font-size: 14px;
+    color: #262626;
+}
